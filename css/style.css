@@ -1,0 +1,473 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
+  body{
+    background-color:#ffc700 ;
+  }
+.header{
+  background-image: url(../images/banner.jpg);
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    height: 100vh;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  margin-top: 10px;
+  padding: 4px 95px;
+
+}
+.logo{
+    color: #ffc700;
+    padding-left: 45px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+
+}
+.logo span{
+  font-size: 27px;
+  font-weight: 600;
+
+}
+.logo img{
+    height: 27px;
+
+}
+.navbar{
+  padding-top: 7px;
+ 
+
+
+}
+.navbar ul{
+  color: #fff;
+  list-style: none;
+  font-size: 14px;
+  list-style: none;
+  overflow: hidden;
+
+
+}
+.navbar li{
+  float:left;
+  margin-right: 20px;
+
+}
+
+
+.navbar ul a{
+  color: #fff;
+  text-decoration: none;
+  padding-left: 25px;
+}
+.navbar ul a:hover{
+  color: #ffc700;
+}
+
+.navbar li i{
+  float: left;
+  border: 1px solid #fff;
+  text-decoration: none;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0px 6px;
+
+}
+
+
+.header .online{
+  margin: 185px 148px;
+
+}
+.header .online p{
+  font-size: 15px;
+    font-weight: 700;
+}
+.header .online button{
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #fff;
+    border: none;
+    padding: 14px 23px;
+    border-radius: 25px;
+    margin-left: 8px;
+}
+.header .online button:hover{
+  transform: scale(1.1);
+}
+.online h1{
+  font-size: 40px;
+
+}
+.online span{
+  color :#CD8383;
+}
+.headphones .quality{
+  background-color: black;
+  color: #fff;
+  height: 200px;
+  text-align: left;
+  padding: 27px 150px;
+
+}
+.headphones .quality h2{
+  color: #FBC769;
+  font-weight: 300;
+  padding-bottom: 20px;
+
+}
+.headphones .quality p{
+  
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 100;
+  text-align: justify;
+
+}
+.headphones .stores{
+  background-image: url(../images/sep.png);
+  height: 100px;
+  margin-top: -21px;
+color: #fff;
+text-align: center;
+}
+.headphones .stores h1{
+font-weight: 600;
+padding: 34px 12px;
+}
+.deals{
+  background-color: #fff;
+}
+.deals h2{
+  
+  padding-top: 50px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+.deals .brand {
+  display: grid;
+  grid-template-columns: 35% 35% 35%;
+  height: 450px;
+  padding-left: 150px;
+  padding-right: 150px;
+    height: 450px;
+
+}
+
+.deals .brand img{
+  height: 180px;
+  width: 100%;
+
+}
+.deals .brand .sony{
+  margin-right: 70px;
+  background-color: black;
+  margin-bottom: 90px;
+  width: 300px;
+position: relative;
+
+}
+.deals .brand .sony h4{
+  color: #ffc700;
+  font-weight: 600;
+  padding: 10px;
+
+}
+.deals .brand .sony p{
+  color: #fff;
+padding-right: 10px;
+  padding-left: 10px;
+  font-size: 12px;
+  text-align: justify;
+
+}
+.deals .brand .sony .off{
+  position: absolute;
+  background-color: rgb(0, 0, 0,.5);
+  color: #fff;
+  padding: 12px;
+  top: 5%;
+  left: 5%;
+  border-radius: 11px;
+
+}
+.arrival{
+  background-color: black;
+
+}
+.arrival h2{
+  color: #ffc700;
+  padding-bottom: 25px;
+  padding-top: 60px;
+  font-weight: 400;
+  font-size: 25px;
+  text-align: center;
+}
+.container{
+  padding-left: 150px;
+  padding-right: 150px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding-bottom: 60px;
+}
+.arrival .container img{
+  height: 162px;
+  margin-bottom: 15px;
+
+
+}
+.order{
+  background-image: url(../images/sep.png);
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+.order .discount{
+  margin-top: 25px;
+
+}
+.order .discount h5{
+  font-weight: 400;
+  font-size: 17px;
+  padding-top: 10px;
+
+}
+.order .discount h1{
+  font-size: 28px;
+
+}
+.order .learn-more button{
+  cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: #fff;
+    border: none;
+    padding: 14px 23px;
+    border-radius: 25px;
+    margin-left: 8px;
+    margin-top: 40px;
+
+}
+.achievements{
+background-color: black;
+color: #fff;
+}
+.achievements .achievement-text{
+  padding-bottom: 25px;
+  padding-top: 70px;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+.achievements .achievement-text h2{
+  font-weight: 100;
+  padding-bottom: 15px;
+}
+.achievements .achievement-text p{
+  font-size: 15px;
+  font-weight: 100;
+  line-height: 20px;
+
+}
+
+.achievements .counts {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 70px;
+
+}
+.achievements .achievements-desc{
+  padding: 10px 50px;
+  display: grid;
+  grid-template-columns: 60% 50%;
+  margin-left: -120px;
+
+}
+
+.achievements .counts .achievement-photo{
+margin-left: 75px;
+margin-right: -26px;
+}
+.achievements .counts .achievement-photo img{
+  height: 340px;
+  margin-left: -80px;
+  width: 500px;
+
+} 
+.achievements .achievements-desc .desc{
+  padding-right: 20px;
+
+}
+.achievements .achievements-desc .desc h1{
+  font-size: 45px;
+  font-weight: 400;
+  font-family: 'Lora', serif;
+  margin-bottom: 15px;
+
+
+}
+.achievements .achievements-desc .desc h4{
+  font-family: 'Lora', serif;
+  padding-bottom: 11px;
+
+}
+.achievements .achievements-desc .desc p{
+  font-size: 14px;
+
+}
+.contact{
+  background-image: url(../images/contactus.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+ 
+
+}
+.contact .back-gh{
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 150px;
+  background-color:RGB(5,31,39,.6);
+}
+.contact .contact-desc{
+  padding: 50px 27px;
+flex: 2;
+}
+.contact .contact-desc h2{
+  color: #ffc700;
+  font-size: 30px;
+  font-weight: 600;
+  padding-bottom: 20px;
+
+}
+
+.contact .contact-desc p{
+  font-family: 'Lora', serif;
+color: #fff;
+font-size: 15px;
+line-height: 21px;
+    text-align: justify;
+
+}
+.contact .form{
+  padding: 35px 15px;
+  border: 1px solid #ffc700;
+  margin: 20px;
+  flex: 1;
+  height: 290px;
+  box-shadow: rgb(255 199 0) 1px 1px 10px;
+  border-radius: 10px;
+
+}
+.form input{
+  color: #9BA1A7;
+  margin-bottom: 17px;
+  padding-top: 10px;
+  margin-bottom: 17px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 90px;
+
+}
+.form button{
+  padding-top: 12px;
+  margin-bottom: 17px;
+  padding-bottom: 12px;
+  padding-left: 90px;
+  padding-right: 128px;
+  letter-spacing: 1px;
+  font-size: 14px;
+background-color: #ffc700;
+color: black;
+cursor: pointer;
+border: none;
+}
+.form button:hover{
+  color: #fff;}
+
+footer{
+  background-color: black;
+  margin-top: 7px;
+  color: #fff;
+padding: 15px 150px;
+display: flex;
+justify-content: space-around;
+height: 250px;
+}
+footer li{
+  line-height: 17px;
+  padding-top: 20px;
+list-style: none;
+}
+footer li a{
+  text-decoration: none;
+  color: #fff;
+}
+footer .footer-social i{
+  padding-right: 10px;
+
+}
+footer .pay{
+  padding-top: 20px;
+
+}
+footer .pay img{
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+}
+footer .pay img:hover{
+  transform: scale(1.2);
+
+}
+footer .pay a{
+  text-decoration: none;
+}
+footer .pay a:hover{
+  cursor: pointer;
+}
+footer .pay input{
+  border-style: none none solid;
+background-color: black;
+color: #fff;
+padding: 10px;
+
+}
+
+footer .pay button{
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 13px;
+  background-color: #fff;
+  border: none;
+  padding: 14px 23px;
+  border-radius: 25px;
+  margin-left: 8px;
+  margin-top: 30px;
+
+}
+footer .pay button:hover{
+  background-color:  #ffc700;
+  color: #fff;
+
+}
